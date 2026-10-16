@@ -159,7 +159,7 @@ if st.button("✨ Generar Diseño", type="primary", use_container_width=True):
         details_phrase = "with a clean professional look"
 
     # Ensamblar el prompt final
-    prompt = f"A photorealistic top-down view of two female hands with {f_tono} stretched outwards and laid flat on a {f_fondo} surface, showcasing detailed nail art. The nails are {f_longitud} length, {f_forma} shaped with a {f_opacidad} base. The design features a {f_acabado} {color_phrase}, {details_phrase}. Professional studio lighting, macro photography, crisp focus on the nails, highly detailed, 8k resolution, beauty editorial style."
+    prompt = f"A photorealistic top-down view of two female hands with {f_tono} stretched outwards and laid flat on a {f_fondo} surface, showcasing detailed nail art. The nails are {f_longitud} length, {f_forma} shaped with a {f_opacidad} base. The design features a {f_acabado} {color_phrase}, {details_phrase}. Flawless manicured cuticles, perfectly clean nail beds, hydrated smooth skin. Professional studio lighting, macro photography, crisp focus on the nails, highly detailed, 8k resolution, beauty editorial style."
     
     st.success("¡Aquí tienes tu prompt listo para copiar! (Toca el ícono en la esquina derecha del cuadro para copiar)")
     st.code(prompt, language="text")
